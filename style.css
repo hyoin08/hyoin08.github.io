@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("img/winter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.login {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.login-form {
+  width: 50px;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+.my-plan {
+  font-size: 50px;
+  color: black;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  border-radius: 20px;
+  position: relative;
+  height: 100px;
+  width: 400px;
+  box-shadow: 7px;
+  left: 700px;
+  top: 0px;
+  background-color: #bfd3e0;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  z-index: 1;
+  font-weight: 600;
+  color: black;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfd3e0;
+  height: 200px;
+  width: 200px;
+  color: black;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 20px;
+  box-shadow: 7px;
+  margin: 20px;
+  position: relative;
+  left: 1000px;
+  bottom: 300px;
+}
+.todo {
+  position: relative;
+  top: 100px;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bfd3e0;
+}
